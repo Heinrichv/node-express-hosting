@@ -1,0 +1,36 @@
+{
+    "extends": "airbnb-base",
+    "env": {
+        "es6": true,
+        "browser": true
+    },
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 11
+    },
+    "rules": {
+        "brace-style": [
+            "error",
+            "stroustrup"
+        ],
+        "comma-dangle": [
+            "error",
+            "never"
+        ],
+        "no-unused-vars": [
+            "warn"
+        ],
+        "no-var": "off",
+        "one-var": "off",
+        "indent": [
+            "error",
+            4
+        ],
+        "no-path-concat": "off",
+        "prefer-template": "off",
+        "class-methods-use-this": "off"
+    }
+}
